@@ -17,6 +17,7 @@ class Cisco_Meraki_Scraper:
     url = "https://documentation.meraki.com/General_Administration/Other_Topics/Meraki_End-of-Life_(EOL)_Products_and_Dates"
 
     def __init__(self):
+        
         self.driver = None
     
     def open_url(self, url):
